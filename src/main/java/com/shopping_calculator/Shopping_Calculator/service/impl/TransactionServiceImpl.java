@@ -45,6 +45,9 @@ public class TransactionServiceImpl implements TransactionService {
 
         System.out.println("\n==================");
         System.out.println(
+                "Transaction Id = " + transactionId
+        );
+        System.out.println(
                 "Product Id = " + productId
         );
         System.out.println(
